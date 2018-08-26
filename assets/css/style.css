@@ -1,0 +1,71 @@
+html {
+	box-sizing: border-box;
+}
+
+
+body {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	color: black;
+	min-height: 100vh;
+    background: url("../images/blue-geometric-wallpaper-5.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+.header {
+	font-family: 'Suez One', serif;
+	padding: 70px 0px 0px 0px;
+	
+}
+
+h1 {
+	color: black;
+	font-size: 3em;
+	margin: 55px 0px 75px 0px;
+	letter-spacing: 6px;
+}
+
+h2 {
+	margin: 20px 0px 10px 0px;
+	letter-spacing: 3px;
+}
+
+.gems {
+	width: 175px;
+	margin: 30px auto;
+}
+
+.directions {
+	color: black;
+	text-align: center;
+	padding: 20px 85px;
+}
+
+.score {
+	padding-top: 30px;
+	margin-bottom: 0;
+	font-size: 22px;
+	font-weight: 600;
+	letter-spacing: 3px;
+}
+
+/*directions*/
+
+#winOrLose {
+	color: #a182bc;
+}
+
+.total, .scores, .directions {
+	margin: auto;
+}
+
+.btn {
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	color:blueviolet;
+	letter-spacing: 3px;
+}
